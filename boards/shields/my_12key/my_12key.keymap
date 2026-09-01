@@ -12,18 +12,4 @@
             >;
         };
     };
-
-    combos {
-        compatible = "zmk,combos";
-        combo_adv {
-            timeout-ms = <200>;
-            key-positions = <11 0 2>;
-            bindings = <&bt BT_CLEAR_BONDS &bt BT_START_ADV>;
-        };
-        combo_clear {
-            timeout-ms = <200>;
-            key-positions = <11 1 3>;
-            bindings = <&bt BT_CLEAR_BONDS>;
-        };
-    };
 };
