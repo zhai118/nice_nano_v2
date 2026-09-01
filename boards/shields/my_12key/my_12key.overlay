@@ -4,18 +4,18 @@
     kscan_0: kscan_0 {
         compatible = "zmk,kscan-gpio-direct";
         input-gpios = <
-            &gpio0 17 GPIO_ACTIVE_LOW
-            &gpio0 20 GPIO_ACTIVE_LOW
-            &gpio0 22 GPIO_ACTIVE_LOW
-            &gpio0 24 GPIO_ACTIVE_LOW
-            &gpio0 9  GPIO_ACTIVE_LOW
-            &gpio0 4  GPIO_ACTIVE_LOW
-            &gpio0 10 GPIO_ACTIVE_LOW
-            &gpio0 11 GPIO_ACTIVE_LOW
-            &gpio0 15 GPIO_ACTIVE_LOW
-            &gpio0 0  GPIO_ACTIVE_LOW
-            &gpio0 6  GPIO_ACTIVE_LOW
-            &gpio0 13 GPIO_ACTIVE_LOW
+            &gpio0 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
+            &gpio0 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
+            &gpio0 22 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
+            &gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
+            &gpio0 9  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
+            &gpio0 4  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
+            &gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
+            &gpio0 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
+            &gpio0 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
+            &gpio0 0  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
+            &gpio0 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
+            &gpio0 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
         >;
         status = "okay";
     };
