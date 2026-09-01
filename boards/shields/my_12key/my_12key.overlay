@@ -1,3 +1,5 @@
+#include <dt-bindings/zmk/matrix_transform.h>
+
 / {
     kscan_0: kscan_0 {
         compatible = "zmk,kscan-gpio-direct";
