@@ -1,0 +1,2 @@
+config SHIELD_MY_12KEY
+    def_bool y
