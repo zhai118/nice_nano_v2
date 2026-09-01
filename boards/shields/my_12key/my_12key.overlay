@@ -15,6 +15,9 @@
             10 6 GPIO_ACTIVE_LOW
             11 13 GPIO_ACTIVE_LOW
         >;
+        /* 新增两行虚拟行列，按键总数 = columns * rows =12*1=12 */
+        columns = <12>;
+        rows = <1>;
         status = "okay";
     };
 
