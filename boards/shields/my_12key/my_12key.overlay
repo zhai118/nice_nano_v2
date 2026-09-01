@@ -15,10 +15,10 @@
             10 6 GPIO_ACTIVE_LOW
             11 13 GPIO_ACTIVE_LOW
         >;
+        status = "okay";
     };
-};
 
-&zmk_kscan {
-    status = "okay";
-    kscan = <&kscan_0>;
+    chosen {
+        zmk,kscan = &kscan_0;
+    };
 };
