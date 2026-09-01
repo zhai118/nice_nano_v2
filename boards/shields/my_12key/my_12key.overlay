@@ -1,5 +1,4 @@
 / {
-    /* 单点直接扫描驱动 zmk,kscan‑gpio‑direct */
     kscan_0: kscan_0 {
         compatible = "zmk,kscan-gpio-direct";
         input-gpios = <
@@ -19,7 +18,6 @@
         status = "okay";
     };
 
-    /* 必须新增 matrix‑transform，1行12列，映射顺序和input‑gpios一一对应 */
     default_transform: transform0 {
         compatible = "zmk,matrix-transform";
         rows = <1>;
