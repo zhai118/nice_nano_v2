@@ -1,0 +1,16 @@
+&pro_micro {
+    gpio-map = <
+        0 17 GPIO_ACTIVE_LOW
+        1 20 GPIO_ACTIVE_LOW
+        2 22 GPIO_ACTIVE_LOW
+        3 24 GPIO_ACTIVE_LOW
+        4 9  GPIO_ACTIVE_LOW
+        5 4  GPIO_ACTIVE_LOW
+        6 10 GPIO_ACTIVE_LOW
+        7 11 GPIO_ACTIVE_LOW
+        8 15 GPIO_ACTIVE_LOW
+        9 0  GPIO_ACTIVE_LOW
+        10 6 GPIO_ACTIVE_LOW
+        11 13 GPIO_ACTIVE_LOW
+    >;
+};
