@@ -1,19 +1,9 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        combo_bt_pair {
-            timeout-ms = <60>;
-            key-positions = <0 2 11>;
-            bindings = <&sys_reset>;
-            layers = <0>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
+        label ="Default";
         default_layer {
             bindings = <
                 &kp W  &kp A  &kp S  &kp D  &kp SPACE &kp F
