@@ -27,7 +27,7 @@
             label = "BASE";
             bindings = <
                 &kp W     &kp A    &kp S    &kp D    &kp SPACE  &kp F
-                &kp E     &kp UP   &kp DOWN &kp R    &kp LALT   &lt 1 TAB
+                &kp E     &kp UP   &kp DOWN &kp R    &kp LALT   &kp TAB
             >;
         };
 
